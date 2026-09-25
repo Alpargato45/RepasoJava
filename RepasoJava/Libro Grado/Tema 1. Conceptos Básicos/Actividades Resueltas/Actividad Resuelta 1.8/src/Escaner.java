@@ -44,7 +44,7 @@ public class Escaner {
         scanner = new Scanner(System.in);
 
         System.out.println(texto);
-        respuesta = scanner.nextLine();
+        respuesta = scanner.toString();
 
         return respuesta;
     }
